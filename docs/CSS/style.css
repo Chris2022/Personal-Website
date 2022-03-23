@@ -209,6 +209,10 @@ nav .menu-btn{
   width: 20rem;
   box-shadow: 5px 5px 5px 5px lightgray;
 }
+.projects-container .card:hover {
+  box-shadow: 15px 10px 10px 15px darkgray;
+  transition: all 0.7s ease;
+}
 .projects-container .card img{
   object-fit: cover;
 }
