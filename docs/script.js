@@ -1,4 +1,4 @@
-// Sticky Navigation
+// This is JS code to make the navbar sticky
 let nav = document.querySelector(".navbar");
 window.onscroll = function(){
     if(document.documentElement.scrollTop > 25){
