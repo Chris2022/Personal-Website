@@ -1,3 +1,3 @@
-# Welcome to my Personal Website!
+# Welcome to my Personal Portfolio!
 
-I am currently working on a personal website to showcase my past projects, current projects, contact Information, and more general information about me.
+I am currently working on a personal website to showcase my past projects, current projects, contact information, and more general information about me.
