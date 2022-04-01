@@ -132,7 +132,7 @@ nav .menu-btn{
   width: 100%;
   background: url('../img/profile.jpeg') no-repeat;
   background-position: bottom 150px right 200px;
-  background-size:25%;
+  background-size:20%;
   background-attachment:fixed;
 }
 .home .home-content{
@@ -347,14 +347,14 @@ nav .menu-btn{
 .about-content{
   margin: 0px;
   padding-top: 40px;
-  text-align: center;
   line-height: 1.5;
   letter-spacing: 1px;
   min-height: 100vh;
-  width: 100%;
+
 }
 .about-content .me{
-  padding: 30px 100px;
+  text-align: center;
+  padding: 10px 20px;
 }
 .about-content .me .article-content h2{
   font-size: 50px;
@@ -369,7 +369,10 @@ nav .menu-btn{
   letter-spacing: 1.5px;
 }
 .about-content .me .article-content p{
-  font-size: 17px;
+  margin: auto;
+  width: 60%;
+  font-size: 17px; 
+  text-align: justify;
 }
 .about-content .me .article-content h2:after{
   height: 5px;
@@ -387,6 +390,13 @@ nav .menu-btn{
 blockquote{
   padding-top: 10px;
   font-size: 23px;
+}
+
+.about-contact .connect{
+  text-align: center;
+}
+.about-contact .connect h2{
+  font-size: 18px;
 }
 /***************************/
 /******* Contact Page *******/
@@ -494,20 +504,30 @@ blockquote{
 /***************************/
 /*********** footer ********/
 /***************************/
+#footer{
+  background-color:steelblue;
+}
 footer div{
   display: inline-block;
 }
 footer .text{
-  color: steelblue;
+  color: white;
 }
 footer .text a:hover{
   text-decoration: none;
   color: lightsalmon;
   transition: all 0.4s ease;
 }
-.links a{
+.links li{
+  color: white;
+}
+.links  a{
+  background-color: white;
   border-radius: 15px;
-  background-color: steelblue;
+  text-decoration: none;
+}
+.links a i{
+  color: steelblue;
 }
 .links ul li a:hover{
   border-color:lightsalmon ;
@@ -515,12 +535,9 @@ footer .text a:hover{
   transition: all 0.4s ease;
 }
 footer a{
-  color: steelblue;
+  color: white;
 }
 footer hr .py-2{
   margin: 0;
   padding: 0;
-}
-#footer{
-  text-align: center;
 }
