@@ -201,25 +201,31 @@ nav .menu-btn {
   font-weight: 500;
 }
 .projects-container {
-  display: flex;
+  /* display: flex;
   justify-content: space-around;
   flex-direction: row;
-  padding-bottom: 15px;
+  flex-wrap: wrap; */
+  padding: 0px 0px 50px 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows:  1fr 1fr 1fr ;
+  grid-gap: 30px 20px;
 }
 .projects-container .card {
-  width: 18rem;
+  padding-bottom: 10px;
+  width: 35rem;
   box-shadow: 2px 2px 2px 2px lightgray;
 }
 .projects-container .card:hover {
-  box-shadow: 10px 5px 5px 5px rgb(115, 114, 114);
-  transition: all 0.7s ease;
+  box-shadow: 10px 10px 10px 10px rgb(98, 97, 97);
+  transition: all 0.9s ease;
 }
 .projects-container .card img {
   object-fit: cover;
 }
 .projects-container .card #fit {
-  padding-top: 100px ;
-  padding-bottom: 90px;
+  padding-top: 200px ;
+  padding-bottom: 165px;
 }
 .projects .card .card-body a {
   text-decoration: none;
