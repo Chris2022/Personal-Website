@@ -15,6 +15,8 @@ header {
 /**************************/
 /******* Navigation *******/
 /**************************/
+/* Includes styling for regular navbar and
+sticky navbar that is activated with the external JS */
 nav {
   position: fixed;
   width: 100%;
@@ -461,6 +463,19 @@ blockquote {
 }
 .about-contact .connect h2 {
   font-size: 18px;
+}
+.about-contact .connect .contact-info a{
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: steelblue;
+  color: white;
+  box-shadow: 2px 2px 2px 2px darkgrey;
+}
+.about-contact .connect .contact-info a:hover{
+  background-color: lightsalmon;
+  color: black;
+  transition: all 0.7s ease-in;
 }
 /***************************/
 /******* Contact Page *******/
