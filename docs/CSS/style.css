@@ -256,6 +256,8 @@ nav .menu-btn {
 /***************************/
 /******* Skills Page *******/
 /***************************/
+/* Used @keyframes rules to specify how css should change from one style
+to another. Used to animate this change */
 .skills {
   width: 100%;
   padding: 80px;
