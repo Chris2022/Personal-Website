@@ -1,3 +1,5 @@
+/* FOR DESKTOP ONLY */
+
 /****************************/
 /********** Global **********/
 /****************************/
@@ -623,3 +625,9 @@ footer hr .py-2 {
   margin: 0;
   padding: 0;
 }
+
+/* FOR DEVICES 600PX AND UNDER */
+@media screen and (max-width: 600px) {
+
+}
+
