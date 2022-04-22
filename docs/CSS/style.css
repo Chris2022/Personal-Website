@@ -744,6 +744,19 @@ footer hr .py-2 {
   margin: 0;
   padding: 0;
 }
+/***************************/
+/******* RESUME Page *******/
+/***************************/
+table{
+  width: 850;
+  border: 0;
+  border-collapse: collapse;
+  margin: auto;              
+
+}
+
+
+
 /* FOR DEVICES 600PX AND UNDER: PHONES */
 @media screen and (max-width: 600px) {
 
