@@ -28,7 +28,6 @@ nav {
   z-index: 1;
   transition: all 1s ease;
 }
-
 nav .sticky {
   padding: 13px 0;
   background-color: steelblue;
@@ -74,7 +73,15 @@ nav .sticky .media-icons a:hover {
   transition: all 0.7s ease;
   color: lightsalmon;
 }
-
+.navbar .menu li a.active{
+  padding: 8px;
+  border-radius: 15px;
+  background-color: steelblue;
+  box-shadow: 10px 10px 10px lightgray;
+  text-decoration: none;
+  transition: all 0.7s ease;
+  color: lightsalmon;
+}
 .navbar .logo a:hover {
   padding: 8px;
   border-radius: 15px;

@@ -1,155 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <!-- Link To Google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Link To External Style Sheet -->
-    <link rel="stylesheet" type="text/css" href="./CSS/style.css" />
-    <!-- Link to Bootstrap CDN -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-    <!-- Script Tag to Link to Javascript file to use my Font Awesome Kit -->
-    <script
-      src="https://kit.fontawesome.com/8132dde659.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
-    <!-- Link to use an external css framework that allows for animations -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <title>Chris Tejada | About Me</title>
-  </head>
-  <body>
-    <!-- Header -->
-    <header class="head">
-      <!-- Begin Navigation -->
-      <!-- Contains linkts to these pages: Home, About, Projects,Skills, Contact -->
-      <!-- Contains links to social media pages such as linkedin, Github and Instagram -->
-      <nav>
-        <div class="navbar">
-          <div class="logo"><a href="index.html">Chris Tejada</a></div>
-          <ul class="menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="skills.html">Skills</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-          <div class="media-icons">
-            <a
-              href="https://www.linkedin.com/in/christopher-tejada/"
-              target="_blank"
-              ><i class="fab fa-linkedin-in"></i
-            ></a>
-            <a href="https://github.com/Chris2022" target="_blank"
-              ><i class="fab fa-github"></i
-            ></a>
-            <a href="https://www.instagram.com/" target="_blank"
-              ><i class="fa-brands fa-instagram"></i
-            ></a>
-          </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- Link To Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap" rel="stylesheet" />
+  <!-- Link To External Style Sheet -->
+  <link rel="stylesheet" type="text/css" href="./CSS/style.css" />
+  <!-- Link to Bootstrap CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <!-- Script Tag to Link to Javascript file to use my Font Awesome Kit -->
+  <script src="https://kit.fontawesome.com/8132dde659.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+  <!-- Link to use an external css framework that allows for animations -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <title>Chris Tejada | About Me</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="head">
+    <!-- Begin Navigation -->
+    <!-- Contains linkts to these pages: Home, About, Projects,Skills, Contact -->
+    <!-- Contains links to social media pages such as linkedin, Github and Instagram -->
+    <nav>
+      <div class="navbar">
+        <div class="logo"><a href="index.html">Chris Tejada</a></div>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="resume.html">Resume</a></li>
+        </ul>
+        <div class="media-icons">
+          <a href="https://www.linkedin.com/in/christopher-tejada/" target="_blank"><i
+              class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/Chris2022" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
         </div>
-      </nav>
-      <!-- End Navigation -->
-    </header>
-    <!-- Main Content -->
-    <!-- In This main content section I include a more detailed bio that tells a bit
+      </div>
+    </nav>
+    <!-- End Navigation -->
+  </header>
+  <!-- Main Content -->
+  <!-- In This main content section I include a more detailed bio that tells a bit
     about who I am. I include a profile picture to allow a viewer to see who I am -->
-    <main>
-      <section class="about-content">
-        <div class="me">
-          <article class="article-content">
-            <h2 class="animate__animated animate__fadeInLeft">About Me</h2>
-            <img src="./img/profile2.jpeg" alt="Profile Picture of Me" />
-            <blockquote>
-              <em>
-                “First, solve the problem. Then, write the code.” – John Johnson
-              </em>
-            </blockquote>
-            <h5>Who am I?</h5>
-            <p>
-              My name is Chris Tejada and I am a computer science student with a
-              passion and desire to learn new technologies and skills. I am
-              currently a senior at the State University of New York at New
-              Paltz. My expected graduation date is May 2022. I am very
-              interested in Web development, Software Engineering, and IT
-              Systems Development. I am a very driven individual who is always
-              looking for new challenges and opportunities. Outside of my
-              Computer Science life, I enjoy playing music, playing sports, and
-              powerlifting.
-            </p>
-          </article>
-        </div>
-      </section>
-      <!-- Small Little section to redirect a viewer/employer to the contact 
-      page in case they would like to contact me. -->
-      <section class="about-contact">
-        <!-- contact me -->
-        <div class="connect">
-          <h2 class="animate__animated animate__fadeInLeft">Lets Connect!</h2>
-          <p class="contact-info">
-            If you would like to get in touch with me, have any oppurtunties, or 
-            would like to know more, you may contact me <a href="./contact.html">here!</a>
+  <main>
+    <section class="about-content">
+      <div class="me">
+        <article class="article-content">
+          <h2 class="animate__animated animate__fadeInLeft">About Me</h2>
+          <img src="./img/profile2.jpeg" alt="Profile Picture of Me" />
+          <blockquote>
+            <em>
+              “First, solve the problem. Then, write the code.” – John Johnson
+            </em>
+          </blockquote>
+          <h5>Who am I?</h5>
+          <p>
+            My name is Chris Tejada and I am a computer science student with a
+            passion and desire to learn new technologies and skills. I am
+            currently a senior at the State University of New York at New
+            Paltz. My expected graduation date is May 2022. I am very
+            interested in Web development, Software Engineering, and IT
+            Systems Development. I am a very driven individual who is always
+            looking for new challenges and opportunities. Outside of my
+            Computer Science life, I enjoy playing music, playing sports, and
+            powerlifting.
           </p>
+        </article>
+      </div>
+    </section>
+    <!-- Small Little section to redirect a viewer/employer to the contact 
+      page in case they would like to contact me. -->
+    <section class="about-contact">
+      <!-- contact me -->
+      <div class="connect">
+        <h2 class="animate__animated animate__fadeInLeft">Lets Connect!</h2>
+        <p class="contact-info">
+          If you would like to get in touch with me, have any oppurtunties, or
+          would like to know more, you may contact me <a href="./contact.html">here!</a>
+        </p>
+    </section>
+  </main>
+  <!-- Begin Footer -->
+  <!-- Footer contains links to social media sites such as Linkedin, Github, and Instagram -->
+  <footer class="text-center text-lg-start" id="footer">
+    <div class="foot text-center p-4" id="inner-footer">
+      <section class="links">
+        <ul class="list-unstyled list-inline text-center">
+          <li class="list-inline-item">
+            <a class="btn btn-primary btn-floating m-1" href="https://www.linkedin.com/in/christopher-tejada/"
+              target="_blank" role="button"><i class="fab fa-linkedin-in"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a class="btn btn-primary btn-floating m-1" href="https://github.com/Chris2022" target="_blank"
+              role="button"><i class="fab fa-github"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a class="btn btn-primary btn-floating m-1" href="https://www.instagram.com/" target="_blank"
+              role="button"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+        </ul>
       </section>
-    </main>
-    <!-- Begin Footer -->
-    <!-- Footer contains links to social media sites such as Linkedin, Github, and Instagram -->
-    <footer class="text-center text-lg-start" id="footer">
-      <div class="foot text-center p-4" id="inner-footer">
-        <section class="links">
-          <ul class="list-unstyled list-inline text-center">
-            <li class="list-inline-item">
-              <a
-                class="btn btn-primary btn-floating m-1"
-                href="https://www.linkedin.com/in/christopher-tejada/"
-                target="_blank"
-                role="button"
-                ><i class="fab fa-linkedin-in"></i
-              ></a>
-            </li>
-            <li class="list-inline-item">
-              <a
-                class="btn btn-primary btn-floating m-1"
-                href="https://github.com/Chris2022"
-                target="_blank"
-                role="button"
-                ><i class="fab fa-github"></i
-              ></a>
-            </li>
-            <li class="list-inline-item">
-              <a
-                class="btn btn-primary btn-floating m-1"
-                href="https://www.instagram.com/"
-                target="_blank"
-                role="button"
-                ><i class="fa-brands fa-instagram"></i
-              ></a>
-            </li>
-          </ul>
-        </section>
-      </div>
-      <div class="text">
-        Created By:
-        <a href="index.html">Chris Tejada</a>
-        © 2022 All Rights Reserved
-      </div>
-    </footer>
-    <!-- End Footer -->
-    <script src="./JS/script.js"></script>
-  </body>
+    </div>
+    <div class="text">
+      Created By:
+      <a href="index.html">Chris Tejada</a>
+      © 2022 All Rights Reserved
+    </div>
+  </footer>
+  <!-- End Footer -->
+  <script src="./JS/script.js"></script>
+</body>
+
 </html>
