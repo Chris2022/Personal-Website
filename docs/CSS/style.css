@@ -373,10 +373,25 @@ to another. Used to animate this change */
     background-color: steelblue;
     border-radius: 25px;
   }
-
+  #TECHNICAL{
+    padding-top: 20px;
+  }
+  /* Animation for TECHNICAL Skills */
+  .skills .skills-content .skills-bar .bar .team{
+    width: 100%;
+    animation: team 3s;
+  }
+  @keyframes team{
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 100%;
+    }
+  }
   /* Animation for HTML Skills */
   .skills .skills-content .skills-bar .bar .html {
-    width: 90%;
+    width: 95%;
     animation: html 3s;
   }
 
@@ -386,13 +401,13 @@ to another. Used to animate this change */
     }
 
     100% {
-      width: 90%;
+      width: 95%;
     }
   }
 
   /* Animation for CSS Skills */
   .skills .skills-content .skills-bar .bar .css {
-    width: 85%;
+    width: 90%;
     animation: css 3s;
   }
 
@@ -402,7 +417,7 @@ to another. Used to animate this change */
     }
 
     100% {
-      width: 85%;
+      width: 90%;
     }
   }
 
@@ -424,7 +439,7 @@ to another. Used to animate this change */
 
   /* Animation for Python Skills */
   .skills .skills-content .skills-bar .bar .python {
-    width: 50%;
+    width: 60%;
     animation: python 3s;
   }
 
@@ -434,13 +449,13 @@ to another. Used to animate this change */
     }
 
     100% {
-      width: 50%;
+      width: 60%;
     }
   }
 
   /* Animation for JS Skills */
   .skills .skills-content .skills-bar .bar .js {
-    width: 40%;
+    width: 55%;
     animation: js 3s;
   }
 
@@ -450,7 +465,7 @@ to another. Used to animate this change */
     }
 
     100% {
-      width: 40%;
+      width: 55%;
     }
   }
 
@@ -472,7 +487,7 @@ to another. Used to animate this change */
 
   /* Animation for PHP Skills */
   .skills .skills-content .skills-bar .bar .php {
-    width: 20%;
+    width: 25%;
     animation: php 3s;
   }
 
@@ -482,7 +497,7 @@ to another. Used to animate this change */
     }
 
     100% {
-      width: 20%;
+      width: 25%;
     }
   }
 
@@ -764,9 +779,25 @@ to another. Used to animate this change */
     margin: auto;
 
   }
-
-
-
+ #RESUME{
+   color: steelblue;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    padding-bottom: 15px;
+ }
+  #RESUME:hover{
+    padding: 8px;
+    border-radius: 15px;
+    background-color: steelblue;
+    box-shadow: 10px 10px 10px lightgray;
+    text-decoration: none;
+    transition: all 0.7s ease;
+    color: lightsalmon;
+  }
+  #BUTTON-RESUME{
+    padding-bottom: 10px;
+  }
 /* FOR DEVICES 600PX AND UNDER: PHONES */
 @media screen and (max-width: 600px){
 
@@ -798,6 +829,9 @@ to another. Used to animate this change */
     color: white;
   }
   .media-icons {
+    display: none;
+  }
+  .hide{
     display: none;
   }
   .logo {
