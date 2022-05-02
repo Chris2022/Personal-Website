@@ -978,9 +978,12 @@ to another. Used to animate this change */
     padding: 5px;
   }
   /* Mobile Skills */
+  #SECOND{
+    width: 100%;
+  }
   .skills {
     width: 100%;
-    padding: 40px;
+    padding: 5px;
   }
 
   /* MOBILE FOOTER */
