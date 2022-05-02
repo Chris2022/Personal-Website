@@ -957,6 +957,7 @@ to another. Used to animate this change */
   }
   .main-contact .contain .contact-form{
     margin-top: 20px;
+    margin-bottom: 20px;
     width: 100%;
   }
   /* MOBILE ABOUT */
