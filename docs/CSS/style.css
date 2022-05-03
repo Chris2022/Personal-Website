@@ -1011,4 +1011,44 @@ to another. Used to animate this change */
 
 
 /* FOR TABLET SCREENS */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 601px) and (max-width : 650px) {
+    /* Tablet GLOBAL */
+    :root {
+      --white: #f9f9f9;
+      --steel: steelblue;
+      --gray: #85888c;
+    }
+  
+    /* variables*/
+    body {
+      background-color: white;
+      font-family: "Raleway", sans-serif;
+    }
+
+    /* TABLET NAVIGATION */
+    .logo{
+      display: none;
+    }
+    .media-icons{
+      display: none;
+    }
+}
+@media only screen and (min-width: 601px) and (max-width : 800px){
+      /* Tablet GLOBAL */
+      :root {
+        --white: #f9f9f9;
+        --steel: steelblue;
+        --gray: #85888c;
+      }
+    
+      /* variables*/
+      body {
+        background-color: white;
+        font-family: "Raleway", sans-serif;
+      }
+  
+      /* TABLET NAVIGATION */
+      .logo{
+        display: none;
+      }
+}
