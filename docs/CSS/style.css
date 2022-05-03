@@ -965,13 +965,13 @@ to another. Used to animate this change */
     margin-top: 20px;
   }
   .main-contact .contain .info{
-    width: 100%;
-    
+    width: 30rem;
+
   }
   .main-contact .contain .contact-form{
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 100%;
+    width: 30rem;
   }
   /* MOBILE ABOUT */
   .about-contact .connect .contact-info a{
